@@ -1,0 +1,163 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos */
+h1 {
+  color: #333;
+}
+
+/* Formulario */
+form {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="text"] {
+  width: 30%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 10px 0;
+}
+
+input[type="email"] {
+  width: 30%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 10px 0;
+}
+
+/* Botones */
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #007bff; /* Estilo por defecto (verde) */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Lista de tareas */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Tareas completadas */
+ul li.completed {
+  text-decoration: line-through;
+  color: #777;
+}
+
+/* Botón de eliminar */
+.delete-btn {
+  background-color: #dc3545; /* Rojo */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+/* Botón de completar */
+.complete-btn {
+  background-color: #007bff; /* Azul */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.complete-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Botón de editar */
+.edit-btn {
+  background-color: #28a745; /* Verde */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.edit-btn:hover {
+  background-color: #218838;
+}
+
+.confirmation-message {
+  margin-top: 20px;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.section-title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Estilos para las listas de características y beneficios */
+.feature-list, .benefit-list {
+  list-style-type: none;
+  padding: 0;
+  text-align: center; /* Centra los elementos de la lista */
+}
+
+.feature-list li, .benefit-list li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Estilo para las listas de características */
+.feature-list li {
+  color: #555;
+}
+
+/* Estilo para las listas de beneficios */
+.benefit-list li {
+  color: #555;
+}
